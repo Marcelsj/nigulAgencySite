@@ -53,15 +53,33 @@
     </div>
   </nav>
 
+  <!-- Cookies    -->
+  <div class="container">
+      <div class="alert alert-warning alert-dismissible fade show nigul-cookies-disclaimer fixed-bottom" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <p>
+                We use cookies to learn more about cookies view our Cookie Policy.
+                By clicking “I accept” or “X” on this banner or using our site, you consent to the use of cookies unless you have disabled them.      
+                <button class="btn btn-primary" data-dismiss="alert" aria-label="Close" type="button">
+                    I Accept
+                </button>
+              </p>
+      </div>    
+  </div>
+
   <!-- Header -->
-  <header class="masthead">
+  <header class="masthead">   
     <div class="container">
       <div class="row">
-          <div class=col-md-8></div>
+          <div class=col-md-4>
+          </div>
+          <div class=col-md-4></div>
           <div class=col-md-4>
             <div class="intro-text">
               <div class="intro-lead-in">Welcome to Nigul</div>
-              <div class="intro-lead-in-2">Empowering people</div>
+              <div class="intro-lead-in-2">Technology to empower people</div>
               <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services"><i class="fas fa-3x fa-angle-double-down"></i></a>
             </div>  
           </div>    
@@ -85,7 +103,7 @@
             <i class="fas fa-users fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Tech Coaching</h4>
-          <p class="text-muted">Nigul will guide you towards those technicall solutions that best fit your needs.</p>
+          <p class="text-muted">Nigul will guide you towards those technicall solutions that best fit your needs</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -93,7 +111,7 @@
             <i class="fas fa-clipboard-list fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Project Management</h4>
-          <p class="text-muted">Nigul will be your Project Manager. We will coordinate from meeting stakeholder and taking requirements up to quality assurance and deployment.</p>
+          <p class="text-muted">Nigul will coordinate all the actors involved in your project during its entire life cycle</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -101,7 +119,7 @@
             <i class="fas fa-laptop-code fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">Software Development</h4>
-          <p class="text-muted">Nigul develops following best practices and using up to date technology to ensure that you get a great product.</p>
+          <p class="text-muted">Nigul develops following best practices and using up to date technology to ensure that you get a great product</p>
         </div>
       </div>
     </div>
@@ -127,7 +145,7 @@
             <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Technological Strategy</h4>
+            <h4>Tech Strategy</h4>
             <p class="text-muted"></p>
           </div>
         </div>
@@ -146,6 +164,20 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Software Development</h4>
+            <p class="text-muted"></p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -160,20 +192,6 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Web Development</h4>
-            <p class="text-muted"></p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -183,7 +201,7 @@
             <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>BI & Data Analisis</h4>
+            <h4>BI & Data Analysis</h4>
             <p class="text-muted"></p>
           </div>
         </div>
@@ -211,7 +229,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Us</h2>
-          <h3 class="section-subheading text-muted">contact@nigul.cat</h3>
+          <h3 class="section-subheading text-muted nigul-email">nigul@nigul.cat</h3>
         </div>
       </div>
     </div>
@@ -222,9 +240,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; nigul.net</span>
         </div>
         <div class="col-md-4">
+          <!--
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
@@ -242,14 +261,12 @@
               </a>
             </li>
           </ul>
+          -->
         </div>
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
             </li>
           </ul>
         </div>
@@ -273,11 +290,11 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Strategy</h2>
+                <h2 class="text-uppercase">Tech Strategy</h2>
                 <p class="item-intro text-muted"></p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-thumbnail.jpg" alt="">
                 <p>
-                  Weather you are a small business exploring your digital possibilities a coorporate willing to explore and innovate online we will help you to define a long term technological strategy with specific steps.
+                  We will work to understand your business model and its evolution. While working to solve the problems of today we will also anticipate the solutions of tomorrow. Present solutions should not condition your future growth.
                 </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -304,18 +321,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
-                </ul>
+                <h2 class="text-uppercase">Project Management</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-thumbnail.jpg" alt="">
+                <p>We will set up the working frame that better feed your needs based on your own culture and your project requirements.
+                  When having clear and precise requirements we can provide key-in-hand solutions. However nowadays software is core in many business and it has to quickly adapt to continuous changing circumstances. For these scenarios we will set up an Agile frame using collaboration tools for project management to better ensure achieving your goals.
+                </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -338,18 +351,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
-                </ul>
+                <h2 class="text-uppercase">Software Development</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-thumbnail.jpg" alt="">
+                <p>
+                  We are experts developing software for the web. Based on SOLID principles and using modern frameworks like Symfony we are strong developing a brough range of products. From websites to feature your business, products and services to personalized ERP functionalities for your business as well as Software as a Service (SaaS) platforms. We will love to know about your project.
+                </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -372,18 +381,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
+                <h2 class="text-uppercase">Database Management</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-thumbnail.jpg" alt="">
+                <p>
+                  We will work to guarantee your data. We work with different database systems to better adjust to your needs on each projects. SQL databases, documental database as well as key value storage systems all are used based on the requirements of each project. We will find the best feed in your case.
+                </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -406,18 +411,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
+                <h2 class="text-uppercase">BI & Data Analysis</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-thumbnail.jpg" alt="">
+                <p>
+                    Data is the fuel of the century. We will help you get the most from your data. Our analytical skills and the most modern and proven tools from Artificial Intelligence will be put to your service to better understand the insights of your business. We will help you build your own Cloud Based Data analytics Platform. We also work on massive data collection over the internet, thanks to our crawling tools it is possible to get a market overview that will boost your business making a real difference.
+                </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -440,18 +441,14 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
+                <h2 class="text-uppercase">Infrastructure</h2>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-thumbnail.jpg" alt="">
+                <p>
+                    We love containers! Containers allow us moving from development to testing and from testing to production in a reliable way. In addition the usage of computing resource is way more efficient and scalable allowing us to work on a real Infrastructure as a Service (IaaS) paradigm.
+                </p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
-                  Close Project</button>
+                  Close</button>
               </div>
             </div>
           </div>
@@ -473,7 +470,6 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
-
 </body>
 
 </html>
